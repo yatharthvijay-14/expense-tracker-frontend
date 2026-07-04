@@ -21,7 +21,7 @@ function Register() {
     try {
 
       await axios.post(
-        "http://localhost:8080/auth/register",
+        "https://expense-tracker-backend-production-aca7.up.railway.app/auth/register",
         {
           name,
           email,

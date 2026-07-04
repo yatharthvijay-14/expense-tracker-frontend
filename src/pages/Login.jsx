@@ -16,7 +16,7 @@ function Login() {
     try {
 
       const response = await axios.post(
-        "http://localhost:8080/auth/login",
+        "https://expense-tracker-backend-production-aca7.up.railway.app/auth/login",
         {
           email,
           password

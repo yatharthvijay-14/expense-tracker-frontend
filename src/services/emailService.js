@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API_URL =
-  "http://localhost:8080/email/send";
+  "https://expense-tracker-backend-production-aca7.up.railway.app/email/send";
 
 export const sendEmail = (email) => {
 
